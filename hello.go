@@ -8,7 +8,7 @@ const prefixoOlaPortugues = "Olá, "
 const prefixoOlaEspanhol = "Hola, "
 const prefixoOlaFrances = "Bonjour, "
 
-// Ola retorna uma saudação personalizada em determinado idiota
+// Ola retorna uma saudação personalizada em determinado idioma
 func Ola(nome string, idioma string) string {
 	if nome == "" {
 		nome = "Mundo"
