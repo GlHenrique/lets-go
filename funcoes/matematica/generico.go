@@ -1,7 +1,8 @@
 package matematica
 
 /*
-Calculo executa qualquer tipo de cálculo, basta passar uma função como parâmetro
+Calculo executa qualquer tipo de cálculo,
+basta passar uma função como parâmetro
 */
 func Calculo(funcao func(int, int) int, numeroA int, numeroB int) int {
 	return funcao(numeroA, numeroB)
