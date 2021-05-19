@@ -40,7 +40,7 @@ func main() {
 
 	numero = 10
 
-	fmt.Print("Este número cabe num dígito?")
+	fmt.Print("Este número cabe num dígito? ")
 	switch {
 	case numero < 10:
 		fmt.Println("Sim!")
